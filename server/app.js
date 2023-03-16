@@ -6,7 +6,7 @@ require("dotenv").config();
 
 // middleware
 const corsOptions = {
-    origin: "http://localhost:3000"
+    origin: "https://mern-deploy-frontend.onrender.com"
 }
 app.use(express.json());
 app.use(cors(corsOptions));
